@@ -74,7 +74,7 @@ splitter.py -h
 #### Example
 Run the tool with the following command:
 ```bash
-splitter.py -l wordlist.txt -o output.txt
+splitter.py -l urllist.txt -o output.txt
 ```
 
 ### Connect with me on
