@@ -22,8 +22,8 @@ def printHelp():
 	print("  -h: Display this help message.\033[0m")
 	
 	print("\n\033[1;93mEXAMPLE:")
-	print(f" \033[1;93mpython splitter.py -l wordlist.txt -o output.txt\033[0m")
-	print(f" \033[1;93mpython splitter.py -l list.txt -o output.txt\033[0m")
+	print(f" \033[1;93mgazillionsplitterpython -l wordlist.txt -o output.txt\033[0m")
+	print(f" \033[1;93mgazillionsplitterpython -l list.txt -o output.txt\033[0m")
 
 def printUsage():
 	tool_name = "Gazillion endpoint splitter"
@@ -77,7 +77,7 @@ def readUrl(filePath):
 				print(i)
 		print(f"\nSuccessfully the URL is splitted and saved in output file",outputFile)
 
-if __name__ == "__main__":
+def main():
 	if len(sys.argv) <= 1:
 		printUsage()
 		sys.exit(1)
@@ -93,3 +93,6 @@ if __name__ == "__main__":
 			printUsage()
 			sys.exit(1)
 	readUrl(wordlist)
+
+if __name__ == "__main__":
+	main()
