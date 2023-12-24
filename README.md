@@ -20,12 +20,13 @@ This tool parses a text file containing URLs, uses the urllib library to break e
 ## Screenshots 📸 :
 <h1 align="center">
   <h2 align="center">Screen Shot 1</h2>
-  <h1 align="center"><img align="center" src="https://ik.imagekit.io/d3kzbpbila/thejashari_pi37VY-nV" width="700px" alt="screenshot1"></h1>
+  <h1 align="center"><img align="center" src="https://ik.imagekit.io/d3kzbpbila/thejashari_Gc-pfzTld" width="700px" alt="screenshot1"></h1>
   <h2 align="center">Screen Shot 2</h2>
- <h1 align="center"> <img align="center" src="https://ik.imagekit.io/d3kzbpbila/thejashari_X1YBA4_Mf" width="700px" alt="screenshot2"></h1>
+ <h1 align="center"> <img align="center" src="https://ik.imagekit.io/d3kzbpbila/thejashari_sscL1Lt9i" width="700px" alt="screenshot2"></h1>
 
 
 ## Installation
+### Cloning the repository
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/thejas-dev/url-splitter
@@ -47,9 +48,9 @@ To make Gazilion Endpoint Splitter globally accessible from any directory, follo
     ```
     Replace `nano` with your preferred text editor.
 
-2. Add the following line at the end of the file, replacing `/path/to/tool/directory` with the actual path to the tool directory:
+2. Add the following line at the end of the file, replacing `/path/to/tool/directory/gazillionsplitterpython` with the actual path to the tool directory:
     ```bash
-    export PATH=$PATH:/path/to/tool/directory
+    export PATH=$PATH:/path/to/tool/directory/gazillionsplitterpython
     ```
 
 3. Save the file and exit the text editor.
@@ -64,6 +65,19 @@ Now, you can run Gazilion Endpoint Splitter from any directory using:
 splitter.py -h
 ```
 
+### Pip Package Installation
+1. **Install the package:**
+    ```bash
+    pip3 install gazillionsplitterpython
+    ```
+    
+2. **Check if successfully installed:**
+    ```bash
+    gazillionsplitterpython -h
+    ```
+    Visit <a href="https://pypi.org/project/gazillionsplitterpython/">Gazillion Splitter Pip Package </a> for more info
+
+
 ### Usage
 
 #### Options
@@ -72,9 +86,13 @@ splitter.py -h
 - **-h, --help:** Display this help message.
 
 #### Example
-Run the tool with the following command:
+Run the tool with the following command for repository clone:
 ```bash
 splitter.py -l urllist.txt -o output.txt
+```
+Run the tool with the following command for pip installation:
+```bash
+gazillionsplitterpython -l urllist.txt -o output.txt
 ```
 
 ### Connect with me on
