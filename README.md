@@ -20,7 +20,7 @@ This tool parses a text file containing URLs, uses the urllib library to break e
 ## Screenshots 📸 :
 <h1 align="center">
   <h2 align="center">Screen Shot 1</h2>
-  <h1 align="center"><img align="center" src="https://ik.imagekit.io/d3kzbpbila/thejashari_Gc-pfzTld" width="700px" alt="screenshot1"></h1>
+  <h1 align="center"><img align="center" src="https://ik.imagekit.io/d3kzbpbila/thejashari_OBF3ya4mk" width="700px" alt="screenshot1"></h1>
   <h2 align="center">Screen Shot 2</h2>
  <h1 align="center"> <img align="center" src="https://ik.imagekit.io/d3kzbpbila/thejashari_sscL1Lt9i" width="700px" alt="screenshot2"></h1>
 

@@ -14,7 +14,7 @@ def printHelp():
 	print(f"{'*' * box_width}\033[0m")
 	
 	print("\n\033[1;36mUSAGE:")
-	print(f"  python splitter.py -l <url-list> -o <outputFile>")
+	print(f"  gazillionsplitterpython -l <url-list> -o <outputFile>")
 	
 	print("\n\033[1;36mOPTIONS:")
 	print("  -l <worlist>: Specify the path to the URL list.")
