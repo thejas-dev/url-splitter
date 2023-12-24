@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 DESCRIPTION = 'A basic URL splitter tool'
 LONG_DESCRIPTION = 'A basic tool for Endpoint Splitting and output the data in a file.'
 
@@ -14,6 +14,7 @@ setup(
     author="Thejas hari",
     author_email="<thejaskala308@gmail.com>",
     description=DESCRIPTION,
+    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
      entry_points={
         'console_scripts': [
